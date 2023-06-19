@@ -1,7 +1,7 @@
 package executableFiles;
 import org.testng.annotations.Test;
 
-import genericUtilities.BaseClass;
+import executableFiles.BaseClass;
 
 
 
