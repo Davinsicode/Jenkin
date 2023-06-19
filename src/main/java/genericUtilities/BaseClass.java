@@ -14,8 +14,8 @@ public class BaseClass
 @BeforeClass
 public void openApplication()
 {
-	WebDriverManager.firefoxdriver().setup();
-	driver = new FirefoxDriver();
+	WebDriverManager.chromedriver().setup();
+	driver = new ChromeDriver();
 	driver.manage().window().maximize();
 	driver.get("https://www.google.com");
 }
