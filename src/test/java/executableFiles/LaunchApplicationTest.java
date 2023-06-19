@@ -1,10 +1,6 @@
 package executableFiles;
 import org.testng.annotations.Test;
 
-import executableFiles.BaseClass;
-
-
-
 public class LaunchApplicationTest extends BaseClass
 {
 	@Test
